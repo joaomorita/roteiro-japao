@@ -83,10 +83,6 @@ header nav ul li a:hover{
     border-radius: 10px;
 }
 
-.intro span img{
-    height: 42px;
-}
-
 .intro .text{
     width: 50%;
 }
@@ -156,4 +152,46 @@ header nav ul li a:hover{
 .footer img{
     height: 300px;
     border-radius: 20%;
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+        display: block;
+        width: 100%;
+    }
+
+    .intro img{
+        width: 100%;
+    }
+
+    .intro .text{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .section-content{
+        display: block;
+    }
+
+    .section-content .information-area{
+        width: 100%;
+    }
+
+    .section-content img{
+        width: 100%;
+    }
+
+    .footer{
+        display: block;
+    }
+
+    .footer p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer img{
+        width: 100%;
+        border-radius: 10px;
+    }
 }
