@@ -24,14 +24,6 @@
     
 }
 
-.background{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    transform: translateZ(0);
-    z-index: -1;
-}
-
 .hero h1{
     width: 100%;
     position: absolute;
@@ -214,6 +206,14 @@ header nav ul li a:hover{
     .intro .text{
         margin-top: 10px;
         width: 100%;
+    }
+
+    .hero{
+        background-size: cover;
+    }
+
+    .hero h1, .hero h2{
+        width: 80vw;
     }
 
     .section-content{
