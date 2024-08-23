@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=KvglG3FkCenH&format=png&color=000000"
     type="image/x-icon">
@@ -16,7 +17,11 @@
     <title>Roteiro Japão - Renata e João</title>
 </head>
 <body>
-    <div class="container">
+    <header class="hero">
+        <h1>Faltam <span id="contador"></span> para a nossa viagem</h1>
+        <h2>Role para baixo e conheça nosso roteiro</h2>
+    </header>
+    <div class="container" data-aos="fade-up">
         <header>
             <nav>
                     <h1><a href="index.html">Nosso Roteiro</a></h1>
@@ -25,7 +30,7 @@
                         <li>|</li>
                         <li><a href="#osaka">Osaka</a></li>
                         <li>|</li>
-                        <li><a href="#">Kyoto</a></li>
+                        <li><a href="#kyoto">Kyoto</a></li>
                     </ul>
             </nav>
         </header>
@@ -60,7 +65,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <section class="intro">
+        <section class="intro" data-aos="fade-right">
             <img src="images/background.jpg" alt="">
             <div class="text">
                 <h2>Por quê o Japão ?</h2>
@@ -69,13 +74,13 @@
             </div>
         </section>
         <hr>
-        <section class="roteiro">
+        <section class="roteiro" data-aos="fade-left">
             <h2>Nosso roteiro</h2>
             <p>Para essa viagem nós escolhemos um período de 20 dias, e mesclamos o mais tradicional do Japão e as nerdices de cultura pop que não poderia faltar. Abaixo vamos deixar nosso itinerário, que foi dividido em três grandes cidades, você pode clicar em cada cidade para ver os detalhes.</p>
         </section>
         <hr>
-        <section id="tokyo">
-            <div class="section-content">
+        <section id="tokyo" data-aos="fade-right">
+            <div class="section-content" >
                 <div class="information-area">
                     <h3><a href="tokyo.html">Tóquio</a></h3>
                     <p>É por aqui que nossa aventura começa. As vezes pode até ser intimidador, uma cidade de 35 milhões de pessoas, imagino que vamos ter a sensação de ser engolidos pela metrópole. Escolhemos passar 9 dias em Tóquio, é muita coisa para ver entre as nerdices e o tradicional, os pontos altos são Akihabara, Shibuya e o Templo Meiji.</p>
@@ -84,7 +89,7 @@
             </div>
         </section>
         <hr>
-        <section id="osaka">
+        <section id="osaka" data-aos="fade-left">
             <div class="section-content">
                 <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/477000/477571-Osaka.jpg" alt="">
                 <div class="information-area">
@@ -94,26 +99,27 @@
             </div>
         </section>
         <hr>
-        <section id="kyoto">
+        <section id="kyoto" data-aos="fade-right">
             <div class="section-content">
                 <div class="information-area">
                     <h3><a href="kyoto.html">Kyoto</a></h3>
                     <p>Dentre as três cidades, acreditamos que Kyoto é a que possibilita a maior imersão, conhecida como o berço da cultura japonesa,  estamos animados para conhecer os templos e aproveitar toda a natureza que a velha capital oferece. É de longe a cidade mais cara para se visitar, mas é compreensível, são milênios de história preservada.</p>
                 </div>
-                <img src="https://static.wonderplan.ai/kyoto.webp" alt="">
+                <img src="images/kyoto.jpg" alt="Kyoto">
             </div>
         </section>
         <hr>
-        <section class="footer">
-            <img src="images/amor-e-eu.JPG" alt="">
+        <!-- <section class="footer" >
             <p>
                 Nós estamos fazendo esse roteiro com muito amor e carinho, para nós é um sonho que vai se realizar e vamos usar essa página para documentar cada passo da nossa viagem e no futuro poder voltar aqui para lembrar como foi planejar tudo isso.
             </p>
-        </section>
+        </section> -->
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

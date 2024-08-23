@@ -5,10 +5,53 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 .container{
     margin: 0 auto;
     max-width: 1024px;
     width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    opacity: .7;
+    background-image: url('https://vjloopsfarm.com/wp-content/uploads/2017/07/Japan-pink-garden_1920x1080_29fps_VJ_Loop_LIMEAR_003.jpg');
+    
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transform: translateZ(0);
+    z-index: -1;
+}
+
+.hero h1{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero h2{
+    position: absolute;
+    bottom: 60px;
+    width: 400px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 40px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
 }
 
 header{
@@ -135,6 +178,10 @@ header nav ul li a:hover{
 
 .section-content .information-area h3 a:hover{
     color: #B0313F;
+}
+
+#kyoto img{
+    width: 50%;
 }
 
 .footer{
