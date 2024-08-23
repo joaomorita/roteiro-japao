@@ -213,7 +213,8 @@ header nav ul li a:hover{
     }
 
     .hero h1, .hero h2{
-        width: 80vw;
+        font-size: 15px;
+        width: 100%;
     }
 
     .section-content{
