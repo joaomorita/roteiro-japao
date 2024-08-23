@@ -228,6 +228,10 @@ header nav ul li a:hover{
         width: 100%;
     }
 
+    #kyoto img{
+        width: 100%;
+    }
+
     .footer{
         display: block;
     }
